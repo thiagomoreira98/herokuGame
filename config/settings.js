@@ -1,9 +1,9 @@
 const config = {
     sqlConfig: {
-        host: "127.0.0.1",
-        user: "postgres",
-        password: "1234",
-        database: "postgres"
+        host:  process.env.PGHOST || "127.0.0.1",
+        user: process.env.PGUSER || "postgres",
+        password: process.env.PGPASSWORD || "1234",
+        database: process.env.PGDATABASE || "postgres"
     },
     host: "127.0.0.1",
     port: 3001
