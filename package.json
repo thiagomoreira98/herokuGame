@@ -1,0 +1,26 @@
+{
+  "name": "game_api",
+  "version": "1.0.0",
+  "description": "repositorio destinado para teste de deploy no heroku",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "smn-pg": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomoreira98/herokuGame.git"
+  },
+  "author": "Thiago Moreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagomoreira98/herokuGame/issues"
+  },
+  "homepage": "https://github.com/thiagomoreira98/herokuGame#readme"
+}
